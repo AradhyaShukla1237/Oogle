@@ -1,0 +1,30 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Oogle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+      <img src="oogle.jpg" class="logo" alt="">
+      <div class"search-box">
+        <div class="search-bar">
+        <input type="text" name="" class="query" value="" placeholder="Search">
+          <img src="search.png" class="search" alt="">
+          <img src="mic.png" class="mic" alt="">
+        </div>
+        <button class="searchBtn">Search</button>
+      </div>
+    </div>
+</body>
+<script>
+  let query = document.querySelector('.query');
+  let searchBtn = document.querySelector('.searchBtn');
+  
+  searchBtn.onclick = function(){
+    let url = 'https://www.google.com/search?q='+query.value;
+    window.open(url,'_self');
+  }
+</script>
+</html>
