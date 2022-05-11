@@ -17,8 +17,8 @@ section .main{
 }
 
 .logo{
-  width: 50%;
-  height: 100px;
+  width: 100%;
+  height: 150px;
   margin-bottom: 20px;
   margin-left: 10px;
   opacity: 1;
