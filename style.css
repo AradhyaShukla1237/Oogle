@@ -68,7 +68,7 @@ section .main{
   border: none;
   cursor: pointer;
   border-radius: 4px;
-  margin-right: 60px;
+  margin-right: 80px;
 }
 
 .searchBtn:hover{
