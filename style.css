@@ -17,8 +17,8 @@ section .main{
 }
 
 .logo{
-  width: 100%;
-  height: 150px;
+  width: 380px;
+  height: 200px;
   margin-bottom: 20px;
   margin-left: 10px;
   opacity: 1;
@@ -56,7 +56,7 @@ section .main{
     padding: 0px 10px;
     bottom: 150px;
     cursor: pointer;
-    margin-left: 150px;
+    margin-left: 200px;
 }
 
 .searchBtn{
