@@ -45,7 +45,7 @@ section .main{
   display: flex;
   justify-content: center;
   padding: 0px 10px;
-  bottom: 200px;
+  bottom: 210px;
   cursor: pointer;
 }
 
@@ -56,7 +56,7 @@ section .main{
     padding: 0px 10px;
     bottom: 195px;
     cursor: pointer;
-    margin-left: 250px;
+    margin-left: 500px;
 }
 
 .searchBtn{
