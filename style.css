@@ -60,7 +60,7 @@ section .main{
 }
 
 .searchBtn{
-  margin: 0 100px;
+  margin: 0 180px;
   margin-top: 20px;
   padding: 12px 20px;
   color: #555;
@@ -69,10 +69,10 @@ section .main{
   cursor: pointer;
   border-radius: 5px;
   margin-right: 80px;
+  text-align: center;
 }
 
 .searchBtn:hover{
-  background: #3a3b3c;
+  background: green;
   border: 0.5px solid rgba(0,0,0,0.2);
-  box-shadow: 2px 2px 2px 2px #fababa;
 }
