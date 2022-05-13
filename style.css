@@ -73,6 +73,7 @@ section .main{
 }
 
 .searchBtn:hover{
-  background: green;
+  background: #3a3b3c;
+  color: white;
   border: 0.5px solid rgba(0,0,0,0.2);
 }
